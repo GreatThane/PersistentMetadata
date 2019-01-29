@@ -1,0 +1,11 @@
+name: PersistentMetadata
+version: ${project.version}
+main: org.thane.PersistentMetadata
+api-version: 1.13
+authors: [Thane]
+description: Causes metadata to persist between restarts.
+softdepend: [NMSUtils]
+commands:
+  meta:
+    usage: /meta
+    description: metas.
